@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vCard - Personal Portfolio</title>
+    <!-- - favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+    <!-- - custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- - google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- - #MAIN -->
+    <main>
+      <!-- - #SIDEBAR -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Laxman Giri</h1>
+            <p class="title">Web developer</p>
+          </div>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span> <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:richard@example.com" class="contact-link"
+                  >laxmangiri924@gmail.com</a
+                >
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+12133522795" class="contact-link"
+                  >+9779813413433</a
+                >
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="1982-06-23">July 17, 1998</time>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Maitidevi, Kathmandu</address>
+              </div>
+            </li>
+          </ul>
+          <div class="separator"></div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/laxman.giri.908132/ "
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/laxman-giri-3a55041b3/"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://github.com/Girilaxman000"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <!-- - #main-content -->
+      <div class="main-content">
+        <!-- - #ABOUT -->
+        <article class="about active" data-page="about">
+          <header><h2 class="h2 article-title">About me</h2></header>
+          <section class="about-text">
+            <p>
+              I am a graduate from Islington College who is intended to make
+              career out of technologies and programming. Love to play around
+              the technologies that are currently available in the market and
+              make a better future out of these technologies. The most
+              fascinating thing for me in the field of programming is changing
+              from complex to simplex form. I believe we can divide and convert
+              any complex algorithm into simple algorithm weather in the field
+              of computer science and technology or anything in real world
+              system.The field that I am confident in working is Web application
+              development, Mobile Application Development and Backend. Currently
+              I am fascinated by web 3.0 which is considered to be one of the
+              most disruptive technology in modern era.
+            </p>
+          </section>
+          <!-- - service -->
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/devops.svg "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">DevOps</h4>
+                  <p class="service-item-text">
+                    Follow best devops practices for better communication
+                    between development and operation teams.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and
+                    Android.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Education</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Islington College</h4>
+                <span> 2017 - 2020 </span>
+                <p class="timeline-text">
+                  Bachelor's degree, Computer Software Engineering
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Sainik Awasiya MahaVidyalaya , Pokhara
+                </h4>
+                <span>2015 — 2017</span>
+                <p class="timeline-text">High School</p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Tulsi Awasiya MahavVidyalaya, Dang
+                </h4>
+                <span>2009 — 2015</span>
+                <p class="timeline-text"></p>
+              </li>
+            </ol>
+          </section>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Experience</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Software Engineer</h4>
+                <span
+                  >Convergeetree / Kathmandu / February, 2021 - April,
+                  2022</span
+                >
+                <p class="timeline-text">
+                  While working on this organization I have chance to work on
+                  four projects. Two of those projects have been deployed and
+                  other two were still in development. While staying on this
+                  organization I have chance to work on web technologies, mobile
+                  technologies, backend and rendering 3d models on web .
+                </p>
+              </li>
+            </ol>
+          </section>
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+            <ul class="skills-list content-card">
+              <div class="contact-info">
+                <address>
+                  ReactJs, NodeJs, Docker, AWS, Kubernetes, ExpressJS, NestJS
+                </address>
+              </div>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+    <!-- - custom js link -->
+    <script src="./assets/js/script.js"></script>
+    <!-- - ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
